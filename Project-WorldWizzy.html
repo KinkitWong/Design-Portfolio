@@ -3,31 +3,281 @@
 
 	<head>
 		<title></title>
+		<link rel="shortcut icon"  type="image/png" href="Logo/favicon.png"/>
 		<link rel="stylesheet" type="text/css" href="css/ProjectStory.css">
+		<link rel="stylesheet" type="text/css" href="css/Slideshow.css">
 	</head>
 
 	<body>
 
-		<img class="imglogo float fitcover" src="Logo/2K_Logo_2_grey.jpg" align="top"/>
+		<div class="grid">
 
-		<div class="floatr center block underline">
+			<a href="index.html">
+				<img class="fitcover imglogo a" src="Logo/2K_Logo_2_Grey.jpg" align="top"/>
+			</a>
 
-			<h1> <strong>  W O R L D &nbsp; W I Z Z Y  </strong> </h1>
+			<div class="b">
+				<h1 class="center underline"> <strong>  W O R L D &nbsp; W I Z Z Y  </strong> </h1>
+			</div>
+		</div>
+
+		<div class="grid2">
+			<img class="HeadImage fitcover" height=100% max-width="100%" src="Website-Photos/WorldWizzy/WW_Sketch_Side.png"/>
+			<img class="HeadImage fitcover" height=100% max-width="100%" src="Website-Photos/WorldWizzy/Assembly WorldWizzy.jpg"/>
+			<img class="HeadImage fitcover" height=100% max-width="100%" src="Website-Photos/WorldWizzy/WW_Branded.png"/>
 
 		</div>
 
-		<div class="container">
-			<img class="HeadImage" src="Website-Photos/WorldWizzy/Assembly_Boxed_WW_Exploded.png"/>
-			<img class="HeadImage" src="Website-Photos/WorldWizzy/Assembly WorldWizzy 3.jpg"/>
-			<img class="HeadImage" src="Website-Photos/WorldWizzy/PERP_Exploded_View.png"/>
+	<div class="grid3">
+
+		<div id="myBtnContainer">
+	  		<button class="btn active" onclick="filterSelection('all')"> A L L </button>
+	  		<button class="btn" onclick="filterSelection('Design_Brief')"> D E S I G N &nbsp; B R I E F </button>
+	  		<button class="btn" onclick="filterSelection('Research')"> R E S E A R C H </button>
+	  		<button class="btn" onclick="filterSelection('Initial_Designs')"> I N I T I A L &nbsp; D E S I G N </button>
+	  		<button class="btn" onclick="filterSelection('Prototyping')"> P R O T O T Y P E </button>
+	  		<button class="btn" onclick="filterSelection('Final_Design')"> F I N A L &nbsp; D E S I G N </button>
+	  		<button class="btn" onclick="filterSelection('Tools_Used')"> B U S I N E S S &nbsp; P L A N </button>
+	  		<button class="btn" onclick="filterSelection('Tools_Used')"> T O O L S &nbsp; U S E D </button>
 		</div>
 
-		<h2> D E S I G N &nbsp; B R I E F </h2>
+		<div class="b2">
 
-		<p> 
-			Welcome to my design portfolio, here is some filler text! 
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-		</p>
+	  		<div class="filterDiv Design_Brief">
+	  			<h3> Powered Mobility Toy </h3>
+	  			<h2> D E S I G N &nbsp; B R I E F </h2>
+
+	  			<p> 
+					Independent mobilibity promotes congnitive development of movitavtion, curiosity and social skills betwen children from a young age. Children with impared mobility however, struggle to gain independance due to reliance on carers. This has an adverse affect on their congitive development causing conditions such as 'learned helplessness'. Therefore independance must be encouraged to all children from a young age, regardless of disability. 
+				</p>
+
+				<p>
+					In England, a few companies have begun creating electric wheelchairs for pre school children with diabilities. This gives them the oppertunity to experience independence and have fun with others without the need of a carer. Studies have shown this to have quantitative benefits to a child's congitive development. In developing countries however, powered mobility is not widespread, especially for pre-school children. 
+				</p>
+
+				<p>
+					<a href="https://designability.org.uk/">Designability</a>
+					has been providing children in England with powered mobility through charitable means and desire to expand their reach. They have sponsored us to create an inexpensive, modular electric wheelchair for children in developing countries, called World Wizzy, with an accompanying robust business plan. We chose to target India due to its varying terrain, market need and low GDP. Hence a product that is sucessful there has a higher possibility of expanding to other, more prosperous, locations. Esentially using India as a gateway to the rest of the world.
+				</p>
+	  		</div>	
+
+	  		<div class="filterDiv Research">
+	  			<h2> R E S E A R C H </h2>
+
+	  			<p>
+					India has a negative perception of disability rooted in religion. Hiduism, believed by 79.8% of India, teaches that disability is an act of God due to wrong doings in a previous life. Although in urban areas, this thinking has been slowly phased out in recent times. The world wizzy can allow disability to be accepted from a younger age, thus accelerating acceptance and gradually spreading it to rural areas. 
+				</p>
+
+					</div>
+
+			<div class="filterDiv Initial_Designs">
+			<h2> I N I T I A L &nbsp; D E S I G N S </h2>
+
+					<div class="row">
+
+					  	<div class="column">
+					    	<img src="Website-Photos/WorldWizzy/Initial Design 2.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+					  	</div>
+
+					 	<div class="column">
+					    	<img src="Website-Photos/WorldWizzy/Initial Design 3.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/WorldWizzy/Initial Design 4.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+					  	</div>
+
+					</div>
+
+					<div id="myModal" class="modal">
+					  	<span class="close cursor" onclick="closeModal()">&times;</span>
+					  	<div class="modal-content">
+
+					   		<div class="mySlides">
+					      		<div class="numbertext">1 / 3</div>
+					     		<img src="Website-Photos/WorldWizzy/Initial Design 2.png" style="width:100%">
+					   		</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">2 / 3</div>
+					      		<img src="Website-Photos/WorldWizzy/Initial Design 3.png" style="width:100%">
+					    	</div>
+					    
+					    	<div class="mySlides">
+					      		<div class="numbertext">3 / 3</div>
+					      		<img src="Website-Photos/WorldWizzy/Initial Design 4.png" style="width:100%">
+					    	</div>
+						</div>
+					</div>
+
+				<p>
+					In order to promote social interaction between children regardless of disability, group customisation elements were encourages as seen in the images above. Panels with whiteboard, magnetic boards allowed for children to play together to customise the World Wizzy.
+				</p>
+					
+				<img width=50% src="Website-Photos/WorldWizzy/Initial Design 1.png"/>
+
+				<p>
+					The design was developed into what is seen above. To reduce costs, simple, inexpensive machining processes were undertaken such as pole bending for the chassis and metal sheet bending for the seating. India has a surplus of steel hence steel was used for most components. It is essential to maintain the toy aethetic, thus vacuum formed ABS sheets were used as decorative tools. The sides had MDF panels which clipped ont the chassis poles via PCV clip attachments. These board can be customised by the children together.
+				</p>
+
+	  		</div>
+
+	  		<div class="filterDiv Prototyping">
+	  			<h2> P R O T O T Y P I N G </h2>
+
+	  				<div class="row">
+
+					  	<div class="column">
+					    	<img src="Website-Photos/WorldWizzy/Initial Design 2.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+					  	</div>
+
+					 	<div class="column">
+					    	<img src="Website-Photos/WorldWizzy/Initial Design 3.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/WorldWizzy/Initial Design 4.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+					  	</div>
+
+					</div>
+
+					<div id="myModal" class="modal">
+					  	<span class="close cursor" onclick="closeModal()">&times;</span>
+					  	<div class="modal-content">
+
+					   		<div class="mySlides">
+					      		<div class="numbertext">1 / 3</div>
+					     		<img src="Website-Photos/WorldWizzy/Initial Design 2.png" style="width:100%">
+					   		</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">2 / 3</div>
+					      		<img src="Website-Photos/WorldWizzy/Initial Design 3.png" style="width:100%">
+					    	</div>
+					    
+					    	<div class="mySlides">
+					      		<div class="numbertext">3 / 3</div>
+					      		<img src="Website-Photos/WorldWizzy/Initial Design 4.png" style="width:100%">
+					    	</div>
+						</div>
+					</div>
+
+				<p>
+					In order to promote social interaction between children regardless of disability, group customisation elements were encourages as seen in the images above. Panels with whiteboard, magnetic boards allowed for children to play together to customise the World Wizzy.
+				</p>
+					
+				<img width=50% src="Website-Photos/WorldWizzy/Initial Design 1.png"/>
+
+				<p>
+					The design was developed into what is seen above. To reduce costs, simple, inexpensive machining processes were undertaken such as pole bending for the chassis and metal sheet bending for the seating. India has a surplus of steel hence steel was used for most components. It is essential to maintain the toy aethetic, thus vacuum formed ABS sheets were used as decorative tools. The sides had MDF panels which clipped ont the chassis poles via PCV clip attachments. These board can be customised by the children together.
+				</p>
+
+	  		</div>
+
+	  		<div class="filterDiv Final_Design">
+	  			<h2> F I N A L &nbsp; D E S I G N </h2>
+	  		</div>
+
+	  		<div class="filterDiv Business_Plan">
+	  			<h2> B U S I N E S S &nbsp; P L A N </h2>
+	  		</div>
+
+	  		<div class="filterDiv Tools_Used">
+	  			<h2> T O O L S &nbsp; U S E D </h2>
+	  		</div>
+
+		</div>
+
+	<div>
+
+	
+
+
+	<!-- Search box script -->
+	<script>
+	filterSelection("all")
+	function filterSelection(c) {
+	  var x, i;
+	  x = document.getElementsByClassName("filterDiv");
+	  if (c == "all") c = "";
+	  for (i = 0; i < x.length; i++) {
+	    w3RemoveClass(x[i], "show");
+	    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+	  }
+	}
+
+	function w3AddClass(element, name) {
+	  var i, arr1, arr2;
+	  arr1 = element.className.split(" ");
+	  arr2 = name.split(" ");
+	  for (i = 0; i < arr2.length; i++) {
+	    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+	  }
+	}
+
+	function w3RemoveClass(element, name) {
+	  var i, arr1, arr2;
+	  arr1 = element.className.split(" ");
+	  arr2 = name.split(" ");
+	  for (i = 0; i < arr2.length; i++) {
+	    while (arr1.indexOf(arr2[i]) > -1) {
+	      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+	    }
+	  }
+	  element.className = arr1.join(" ");
+	}
+
+	// Add active class to the current button (highlight it)
+	var btnContainer = document.getElementById("myBtnContainer");
+	var btns = btnContainer.getElementsByClassName("btn");
+	for (var i = 0; i < btns.length; i++) {
+	  btns[i].addEventListener("click", function(){
+	    var current = document.getElementsByClassName("active");
+	    current[0].className = current[0].className.replace(" active", "");
+	    this.className += " active";
+	  });
+	}
+	</script>
+
+	<!-- Image enlarge script -->
+	<script>
+	function openModal() {
+	  document.getElementById('myModal').style.display = "block";
+	}
+
+	function closeModal() {
+	  document.getElementById('myModal').style.display = "none";
+	}
+
+	var slideIndex = 1;
+	showSlides(slideIndex);
+
+	function plusSlides(n) {
+	  showSlides(slideIndex += n);
+	}
+
+	function currentSlide(n) {
+	  showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("demo");
+	  var captionText = document.getElementById("caption");
+	  if (n > slides.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+	      slides[i].style.display = "none";
+	  }
+	  for (i = 0; i < dots.length; i++) {
+	      dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";
+	  dots[slideIndex-1].className += " active";
+	  captionText.innerHTML = dots[slideIndex-1].alt;
+	}
+	</script>
 
 	</body>
 </html>
