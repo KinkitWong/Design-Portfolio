@@ -107,7 +107,7 @@ p{
   	height: 15vw;
 }
 
-.float{
+.floatl{
 	float: left;
 }
 
@@ -194,7 +194,25 @@ br{
 	line-height: 5vw;
 }
 
-.imagebox{
-	width: 50vw;
-	height: 50vw;
+.image{
+	height: 25vw;
+
+	object-fit: cover;
 }
+
+.button{
+	font-size: 2vw;
+	height: 4vw;
+	line-height: 4vw;
+	width: 60%;
+	color: black;
+	background-color: #d3d3d3;
+	margin: 2% auto;
+}
+
+.icon{
+	height: 15vw;
+	width: 15vw;
+	margin: 4%;
+}
+
