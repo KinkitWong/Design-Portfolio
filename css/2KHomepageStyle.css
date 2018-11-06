@@ -96,7 +96,7 @@ video{
 	grid-column-gap: 3%;
 	grid-row-gap: 2vw;
 	grid-template-columns: 32.5% 50% auto;
-	grid-template-rows: 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+	grid-template-rows: 80px 80px 80px 80px 5vw 5vw 80px 80px 80px;
 	max-width: 100%;
 }
 
@@ -107,7 +107,7 @@ video{
 }
 
 .at{
-	grid-row: 1 / span 4;
+	grid-row: 1 / span 5;
 	grid-column: 2 / span 1;
 	z-index: +1;
 }
@@ -172,6 +172,16 @@ video{
 	z-index: +2;
 }
 
+.mp{
+	grid-row: 5 / span 1;
+	grid-column: 1 / span 1;
+}
+
+.cv{
+	grid-row: 6 / span 1;
+	grid-column: 1 / span 1;	
+}
+
 img{
 	object-fit: cover;
 }
@@ -234,7 +244,7 @@ a:hover + text {
 	margin-right: 1.2%;
 	padding: 0% 2%;
 	background-color: white;
-	height: 40vw;
+	height: 41vw;
 }
 
 .zeromargin{
@@ -255,4 +265,61 @@ a:hover + text {
 
 .centertext{
 	text-align: center;	
+}
+
+.button{
+	background-color: #696969;
+}
+
+.mp2{
+	font-size: 1.8vw;
+	line-height: 2vw;
+	color: #88bdff;
+}
+
+.cv2{
+	font-size: 1.8vw;
+	line-height: 2vw;
+	color: #88bdff;
+}
+
+.faded2:hover {
+	animation: fadeinimg 0.5s ease-in-out;
+	opacity: 0.8;
+}
+
+@keyframes fadeinimg {
+
+	from{
+		opacity: 1;
+	}
+
+	to{
+		opacity: 0.8;
+	}
+
+}
+
+
+
+.expand{
+	height: 4vw;
+	width: 100%;
+	background-color: #696969;	
+}
+
+.expandee{
+	height: 0;
+	width: 30%;
+	background-color: #696969;
+	-webkit-transition: All 0.5s ease-in-out;
+}
+
+.expand:hover + .expandee{
+	height: 4vw;
+	width: 30%;
+}
+
+.top{
+	margin-top: 2vw;
 }

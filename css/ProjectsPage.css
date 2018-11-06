@@ -10,6 +10,7 @@ h1{
 	font-size: 2.5vw;
 	line-height: 15vw;
 	display: none;
+	color: #88bdff;
 }
 
 h2{
@@ -140,8 +141,8 @@ h5{
 	width: 92%;
 	grid-template-rows: 20vw 20vw 20vw 20vw 20vw 20vw;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	border-top: 0.5vw solid #696969;
-	padding-top: 5%;
+	/*border-top: 0.5vw solid #696969;
+	padding-top: 5%;*/
 }
 
 .imgcontainer{
@@ -210,3 +211,4 @@ img:hover + h5 {
 .center{
 	text-align: center;
 }
+
