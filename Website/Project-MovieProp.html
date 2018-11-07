@@ -3,31 +3,244 @@
 
 	<head>
 		<title></title>
+		<link rel="shortcut icon"  type="image/png" href="Logo/favicon.png"/>
 		<link rel="stylesheet" type="text/css" href="css/ProjectStory.css">
+		<link rel="stylesheet" type="text/css" href="css/Slideshow.css">
 	</head>
 
 	<body>
 
-		<img class="imglogo float fitcover" src="Logo/2K_Logo_2_grey.jpg" align="top"/>
+		<div class="grid">
 
-		<div class="floatr center block underline"> 
+			<a href="index.html">
+				<img class="fitcover imglogo a" src="Logo/2K_Logo_2_Grey.jpg" align="top"/>
+			</a>
 
-			<h1> <strong>  M O V I E &nbsp; P R O P  </strong> </h1>
+			<div class="b">
+				<h1 class="center underline"> <strong>  M O V I E &nbsp; P R O P  </strong> </h1>
+			</div>
+		</div>
+
+		<div class="grid2">
+			<img class="HeadImage fitcover" height=100% max-width="100%" src="Website-Photos/MovieProp/Movie Prop Body.png"/>
+			<img class="HeadImage fitcover" height=100% max-width="100%" src="Website-Photos/MovieProp/ErizonAmera.jpg"/>
+			<img class="HeadImage fitcover" height=100% max-width="100%" src="Website-Photos/MovieProp/Movie-Prop.jpg"/>
 
 		</div>
 
-		<div class="container">
-			<img class="HeadImage" src="Website-Photos/WorldWizzy/Assembly_Boxed_WW_Exploded.png"/>
-			<img class="HeadImage" src="Website-Photos/WorldWizzy/Assembly WorldWizzy 3.jpg"/>
-			<img class="HeadImage" src="Website-Photos/WorldWizzy/PERP_Exploded_View.png"/>
+	<div class="grid3">
+
+		<div id="myBtnContainer">
+	  		<button class="btn active" onclick="filterSelection('all')"> A L L </button>
+	  		<button class="btn" onclick="filterSelection('Design_Brief')"> D E S I G N &nbsp; B R I E F </button>
+	  		<button class="btn" onclick="filterSelection('Gallery')"> G A L L E R Y </button>
+	  		<button class="btn" onclick="filterSelection('Tools_Used')"> T O O L S &nbsp; U S E D </button>
+
 		</div>
 
-		<h2> D E S I G N &nbsp; B R I E F </h2>
+		<div class="b2">
 
-		<p> 
-			Welcome to my design portfolio, here is some filler text! 
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-		</p>
+	  		<div class="filterDiv Design_Brief">
+	  			<h3> Personalised Prop </h3>
+	  			<h2> D E S I G N &nbsp; B R I E F </h2>
+
+	  			<p> 
+					After a chance meeting on a train with a student film director, I was contracted to create a movie prop for them. They wanted a google home, however with their branding and easy control.
+				</p>
+	  		</div>	
+
+	  		<div class="filterDiv Gallery">
+	  			<h2> G A L L E R Y </h2>
+
+					<div class="row">
+
+					  	<div class="column">
+					    	<img src="Website-Photos/MovieProp/Initial Design 1.jpg" style="height: 15vw" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+					  	</div>
+
+					 	<div class="column">
+					    	<img src="Website-Photos/MovieProp/Initial Design 2.png" style="height: 15vw" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/MovieProp/Initial Design 3.png" style="height: 15vw" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/MovieProp/Initial Design 4.png" style="height: 15vw" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/MovieProp/Movie Prop Body.png" style="height: 15vw" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/MovieProp/Movie-Prop.jpg" style="height: 15vw" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/MovieProp/Final Prototype.jpg" style="height: 15vw" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/MovieProp/ErizonAmera.jpg" style="height: 15vw" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+					  	</div>
+
+					</div>
+
+					<div id="myModal" class="modal">
+					  	<span class="close cursor" onclick="closeModal()">&times;</span>
+					  	<div class="modal-content">
+
+					   		<div class="mySlides">
+					      		<div class="numbertext">1 / 8</div>
+					     		<img src="Website-Photos/MovieProp/Initial Design 1.jpg" style="width: 100%">
+					   		</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">2 / 8</div>
+					      		<img src="Website-Photos/MovieProp/Initial Design 2.png" style="width: 100%">
+					    	</div>
+					    
+					    	<div class="mySlides">
+					      		<div class="numbertext">3 / 8</div>
+					      		<img src="Website-Photos/MovieProp/Initial Design 3.png" style="width: 100%">
+					    	</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">4 / 8</div>
+					      		<img src="Website-Photos/MovieProp/Initial Design 4.png" style="width: 100%">
+					    	</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">5 / 8</div>
+					      		<img src="Website-Photos/MovieProp/Movie Prop Body.png" style="width: 100%">
+					    	</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">6 / 8</div>
+					      		<img src="Website-Photos/MovieProp/Movie-Prop.jpg" style="width: 100%">
+					    	</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">7 / 8</div>
+					      		<img src="Website-Photos/MovieProp/Final Prototype.jpg" style="width: 100%">
+					    	</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">8 / 8</div>
+					      		<img src="Website-Photos/MovieProp/ErizonAmera.jpg" style="width: 100%">
+					    	</div>
+						</div>
+					</div>
+
+				<p>
+					A personlaised home asistant with their logo etched onto the top was created. Within the body of the prop lay an arduino mini that controlled three LED strips, controlled by a wireless analog stick controller via radio signals. 
+				</p>
+
+	  		</div>
+
+	  		<div class="filterDiv Tools_Used">
+	  			<h2> T O O L S &nbsp; U S E D </h2>
+	  			<img class="icon" width=40% src="Website-Photos/Inventor_Logo.png"/>
+	  			<img class="icon" width=40% src="Website-Photos/Concepts_Logo.jpg"/>
+	  			<img class="icon" width=40% src="Website-Photos/Ultimaker_Logo.jpg"/>
+	  			<img class="icon" width=40% src="Website-Photos/Arduino_Logo.png"/>
+
+	  		</div>
+
+		</div>
+
+	<div>
+
+	
+
+
+	<!-- Search box script -->
+	<script>
+	filterSelection("all")
+	function filterSelection(c) {
+	  var x, i;
+	  x = document.getElementsByClassName("filterDiv");
+	  if (c == "all") c = "";
+	  for (i = 0; i < x.length; i++) {
+	    w3RemoveClass(x[i], "show");
+	    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+	  }
+	}
+
+	function w3AddClass(element, name) {
+	  var i, arr1, arr2;
+	  arr1 = element.className.split(" ");
+	  arr2 = name.split(" ");
+	  for (i = 0; i < arr2.length; i++) {
+	    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+	  }
+	}
+
+	function w3RemoveClass(element, name) {
+	  var i, arr1, arr2;
+	  arr1 = element.className.split(" ");
+	  arr2 = name.split(" ");
+	  for (i = 0; i < arr2.length; i++) {
+	    while (arr1.indexOf(arr2[i]) > -1) {
+	      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+	    }
+	  }
+	  element.className = arr1.join(" ");
+	}
+
+	// Add active class to the current button (highlight it)
+	var btnContainer = document.getElementById("myBtnContainer");
+	var btns = btnContainer.getElementsByClassName("btn");
+	for (var i = 0; i < btns.length; i++) {
+	  btns[i].addEventListener("click", function(){
+	    var current = document.getElementsByClassName("active");
+	    current[0].className = current[0].className.replace(" active", "");
+	    this.className += " active";
+	  });
+	}
+	</script>
+
+	<!-- Image enlarge script -->
+	<script>
+	function openModal() {
+	  document.getElementById('myModal').style.display = "block";
+	}
+
+	function closeModal() {
+	  document.getElementById('myModal').style.display = "none";
+	}
+
+	var slideIndex = 1;
+	showSlides(slideIndex);
+
+	function plusSlides(n) {
+	  showSlides(slideIndex += n);
+	}
+
+	function currentSlide(n) {
+	  showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("demo");
+	  var captionText = document.getElementById("caption");
+	  if (n > slides.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+	      slides[i].style.display = "none";
+	  }
+	  for (i = 0; i < dots.length; i++) {
+	      dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";
+	  dots[slideIndex-1].className += " active";
+	  captionText.innerHTML = dots[slideIndex-1].alt;
+	}
+	</script>
 
 	</body>
 </html>

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title></title>
+		<link rel="shortcut icon"  type="image/png" href="Logo/favicon.png"/>
+		<link rel="stylesheet" type="text/css" href="css/ProjectStory.css">
+		<link rel="stylesheet" type="text/css" href="css/Slideshow.css">
+	</head>
+
+	<body>
+
+		<div class="grid">
+
+			<a href="index.html">
+				<img class="fitcover imglogo a" src="Logo/2K_Logo_2_Grey.jpg" align="top"/>
+			</a>
+
+			<div class="b">
+				<h1 class="center underline"> <strong>  L U X U R Y &nbsp; L A M P  </strong> </h1>
+			</div>
+		</div>
+
+		<div class="grid2">
+			<img class="HeadImage fitcover" height=100% max-width="100%" src="Website-Photos/Lamp/A Level 9.jpg"/>
+			<img class="HeadImage fitcover" height=100% max-width="100%" src="Website-Photos/Lamp/Luxury-Lamp.jpg"/>
+			<img class="HeadImage fitcover" height=100% max-width="100%" src="Website-Photos/Lamp/A Level 8.jpg"/>
+
+		</div>
+
+	<div class="grid3">
+
+		<div id="myBtnContainer">
+	  		<button class="btn active" onclick="filterSelection('all')"> A L L </button>
+	  		<button class="btn" onclick="filterSelection('Design_Brief')"> D E S I G N &nbsp; B R I E F </button>
+	  		<button class="btn" onclick="filterSelection('Gallery')"> G A L L E R Y </button>
+	  		<button class="btn" onclick="filterSelection('Tools_Used')"> T O O L S &nbsp; U S E D </button>
+
+		</div>
+
+		<div class="b2">
+
+	  		<div class="filterDiv Design_Brief">
+	  			<h3> Luxury User Focus </h3>
+	  			<h2> D E S I G N &nbsp; B R I E F </h2>
+
+	  			<p> 
+					A product designed requested a luxury desk lamp that would suit their minimalist desk arrangement. They wanted it to be unique, un-obtrusive, and have a hands free switching method as they would often have things in their hands.
+				</p>
+	  		</div>	
+
+	  		<div class="filterDiv Gallery">
+	  			<h2> G A L L E R Y </h2>
+
+					<div class="row">
+
+						<div class="column">
+					    	<img src="Website-Photos/Lamp/Initial Design 1.png" style="height: 15vw" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/Lamp/Initial Design 2.png" style="height: 15vw" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/Lamp/A Level 1.jpg" style="height: 15vw" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+					  	</div>
+
+					 	<div class="column">
+					    	<img src="Website-Photos/Lamp/A Level 2.jpg" style="height: 15vw" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/Lamp/A Level 3.jpg" style="height: 15vw" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/Lamp/A Level 4.png" style="height: 15vw" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/Lamp/A Level 5.jpg" style="height: 15vw" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/Lamp/A Level 6.jpg" style="height: 15vw" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/Lamp/A Level 7.jpg" style="height: 15vw" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/Lamp/M1.png" style="height: 15vw" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/Lamp/M2.png" style="height: 15vw" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/Lamp/M3.jpg" style="height: 15vw" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/Lamp/M4.png" style="height: 15vw" onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/Lamp/M5.png" style="height: 15vw" onclick="openModal();currentSlide(14)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/Lamp/M6.png" style="height: 15vw" onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/Lamp/M7.jpg" style="height: 15vw" onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
+					  	</div>
+
+					</div>
+
+					<div id="myModal" class="modal">
+					  	<span class="close cursor" onclick="closeModal()">&times;</span>
+					  	<div class="modal-content">
+
+					   		<div class="mySlides">
+					      		<div class="numbertext">1 / 16</div>
+					     		<img src="Website-Photos/Lamp/Initial Design 1.png" style="width: 100%">
+					   		</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">2 / 16</div>
+					      		<img src="Website-Photos/Lamp/Initial Design 2.png" style="width: 100%">
+					    	</div>
+					    
+					    	<div class="mySlides">
+					      		<div class="numbertext">3 / 16</div>
+					      		<img src="Website-Photos/Lamp/A Level 1.jpg" style="width: 100%">
+					    	</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">4 / 16</div>
+					      		<img src="Website-Photos/Lamp/A Level 2.jpg" style="width: 100%">
+					    	</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">5 / 16</div>
+					      		<img src="Website-Photos/Lamp/A Level 3.jpg" style="width: 100%">
+					    	</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">6 / 16</div>
+					      		<img src="Website-Photos/Lamp/A Level 4.png" style="width: 100%">
+					    	</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">7 / 16</div>
+					      		<img src="Website-Photos/Lamp/A Level 5.jpg" style="width: 100%">
+					    	</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">8 / 16</div>
+					      		<img src="Website-Photos/Lamp/A Level 6.jpg" style="width: 100%">
+					    	</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">9 / 16</div>
+					      		<img src="Website-Photos/Lamp/A Level 7.jpg" style="width: 100%">
+					    	</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">10 / 16</div>
+					      		<img src="Website-Photos/Lamp/M1.png" style="width: 100%">
+					    	</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">11 / 16</div>
+					      		<img src="Website-Photos/Lamp/M2.png" style="width: 100%">
+					    	</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">12 / 16</div>
+					      		<img src="Website-Photos/Lamp/M3.jpg" style="width: 100%">
+					    	</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">13 / 16</div>
+					      		<img src="Website-Photos/Lamp/M4.png" style="width: 100%">
+					    	</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">14 / 16</div>
+					      		<img src="Website-Photos/Lamp/M5.png" style="width: 100%">
+					    	</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">15 / 16</div>
+					      		<img src="Website-Photos/Lamp/M6.png" style="width: 100%">
+					    	</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">16 / 16</div>
+					      		<img src="Website-Photos/Lamp/M7.jpg" style="width: 100%">
+					    	</div>
+						</div>
+					</div>
+
+				<p>
+					A moden, simplistic lamp design was made with an OEM touchless sensor which switched the LEDs on via use of IR radiation. This project improved my manufacturing capabilities greatly, developing my skills for designing for manufacture.
+				</p>
+
+	  		</div>
+
+	  		<div class="filterDiv Tools_Used">
+	  			<h2> T O O L S &nbsp; U S E D </h2>
+	  			<img class="icon" width=40% src="Website-Photos/Spaceclaim_Logo.png"/>
+
+	  		</div>
+
+		</div>
+
+	<div>
+
+	
+
+
+	<!-- Search box script -->
+	<script>
+	filterSelection("all")
+	function filterSelection(c) {
+	  var x, i;
+	  x = document.getElementsByClassName("filterDiv");
+	  if (c == "all") c = "";
+	  for (i = 0; i < x.length; i++) {
+	    w3RemoveClass(x[i], "show");
+	    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+	  }
+	}
+
+	function w3AddClass(element, name) {
+	  var i, arr1, arr2;
+	  arr1 = element.className.split(" ");
+	  arr2 = name.split(" ");
+	  for (i = 0; i < arr2.length; i++) {
+	    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+	  }
+	}
+
+	function w3RemoveClass(element, name) {
+	  var i, arr1, arr2;
+	  arr1 = element.className.split(" ");
+	  arr2 = name.split(" ");
+	  for (i = 0; i < arr2.length; i++) {
+	    while (arr1.indexOf(arr2[i]) > -1) {
+	      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+	    }
+	  }
+	  element.className = arr1.join(" ");
+	}
+
+	// Add active class to the current button (highlight it)
+	var btnContainer = document.getElementById("myBtnContainer");
+	var btns = btnContainer.getElementsByClassName("btn");
+	for (var i = 0; i < btns.length; i++) {
+	  btns[i].addEventListener("click", function(){
+	    var current = document.getElementsByClassName("active");
+	    current[0].className = current[0].className.replace(" active", "");
+	    this.className += " active";
+	  });
+	}
+	</script>
+
+	<!-- Image enlarge script -->
+	<script>
+	function openModal() {
+	  document.getElementById('myModal').style.display = "block";
+	}
+
+	function closeModal() {
+	  document.getElementById('myModal').style.display = "none";
+	}
+
+	var slideIndex = 1;
+	showSlides(slideIndex);
+
+	function plusSlides(n) {
+	  showSlides(slideIndex += n);
+	}
+
+	function currentSlide(n) {
+	  showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("demo");
+	  var captionText = document.getElementById("caption");
+	  if (n > slides.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+	      slides[i].style.display = "none";
+	  }
+	  for (i = 0; i < dots.length; i++) {
+	      dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";
+	  dots[slideIndex-1].className += " active";
+	  captionText.innerHTML = dots[slideIndex-1].alt;
+	}
+	</script>
+
+	</body>
+</html>
