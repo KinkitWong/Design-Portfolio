@@ -1,4 +1,4 @@
-*{
+ 	*{
 	font-family: century gothic;
 	line-height: 1.5;
 }
@@ -11,22 +11,12 @@ h1{
 	padding: 5.6%;
 }
 
-/*.block{
-	display: inline-block;
-	width: 60%;
-	height:14vw;
-	text-align: center;
-	vertical-align: middle;
-	margin: 4% 4% 0% 0%;
-}*/
-
 .grid{
-	margin: 2% 4% 4% 4%;
+	margin: 4% 4% 1% 4%;
 	display: grid;
 	grid-column-gap: 5%;
-	grid-row-gap: 5vw;
-	grid-template-columns: 30% 30% 30%;
 	grid-template-rows: 15vw;
+	grid-template-columns: 33% 30% 27%;
 	max-width: 100%;
 }
 
@@ -214,5 +204,6 @@ br{
 	height: 15vw;
 	width: 15vw;
 	margin: 4%;
+	object-fit: scale-down;
 }
 
