@@ -107,7 +107,7 @@ video{
 }
 
 .at{
-	grid-row: 1 / span 5;
+	grid-row: 1 / span 3;
 	grid-column: 2 / span 1;
 	z-index: +1;
 }
@@ -178,7 +178,7 @@ video{
 }
 
 .cv{
-	grid-row: 6 / span 1;
+	grid-row: 5 / span 1;
 	grid-column: 1 / span 1;	
 }
 
