@@ -14,7 +14,7 @@ h2{
 }
 
 h3 {
- 	/*background-color: #696969;*/
+ 	background-color: #696969;
  	/*background-color: #88bdff;*/
  	padding: 20px;
  	/*display: none;*/
@@ -38,7 +38,7 @@ p{
 
 text{
 	display: none;
-	background-color: #696969;
+	/*background-color: #696969;*/
 }
 
 video{
