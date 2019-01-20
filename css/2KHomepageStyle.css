@@ -16,12 +16,13 @@ h2{
 h3 {
  	background-color: #696969;
  	/*background-color: #88bdff;*/
- 	padding: 20px;
  	/*display: none;*/
  	z-index: -1;
  	margin: 0;
- 	font-size: 1.2vw;
+ 	font-size: 2vw;
+ 	line-height: 5vw;
  	color: white;
+ 	padding-right: 2%;
 }
 
 h4{
@@ -96,7 +97,7 @@ video{
 	display: grid;
 	grid-column-gap: 3%;
 	grid-row-gap: 2vw;
-	grid-template-columns: 32.5% 50% auto;
+	grid-template-columns: 32.5% 55% auto;
 	grid-template-rows: 80px 80px 80px 80px 5vw 5vw;
 	max-width: 100%;
 }
@@ -183,6 +184,7 @@ video{
 	grid-column: 1 / span 1;	
 }
 
+
 img{
 	object-fit: cover;
 }
@@ -253,7 +255,8 @@ a:hover + text {
 }
 
 .textimg{
-	margin: 2%;
+	margin: 0;
+	margin-right: 4%;
 }
 
 .margin{
@@ -328,4 +331,20 @@ a:hover + text {
 	opacity: 0.7;	
 	font-size:2vw;
 	margin: 0 0 2% 0;
+}
+
+.height{
+	height: 20vw;
+}
+
+.grey{
+	background-color: #696969
+}
+
+.border{
+	border: 2vw solid #88bdff;
+}
+
+.contain{
+	object-fit: contain;
 }
