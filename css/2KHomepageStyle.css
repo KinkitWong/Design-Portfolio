@@ -101,7 +101,7 @@ video{
 	grid-column-gap: 3%;
 	grid-row-gap: 2vw;
 	grid-template-columns: 32.5% 55% auto;
-	grid-template-rows: 80px 80px 80px 80px 5vw 5vw;
+	grid-template-rows: 80px 80px 80px 80px 80px 5vw 5vw;
 	max-width: 100%;
 }
 
@@ -177,13 +177,31 @@ video{
 	z-index: +2;
 }
 
+.e{
+	grid-row: 5 / span 1;
+	grid-column: 1 / span 1;
+	z-index: 0
+}
+
+.et{
+	grid-row: 5 / span 3;
+	grid-column: 2 / span 1;
+	z-index: 0
+}
+
+.ei{
+	grid-row: 5 / span 1;
+	grid-column: 1 / span 1;
+	z-index: +2;
+}
+
 .mp{
 	grid-row: 5 / span 1;
 	grid-column: 1 / span 1;
 }
 
 .cv{
-	grid-row: 5 / span 1;
+	grid-row: 6 / span 1;
 	grid-column: 1 / span 1;	
 }
 

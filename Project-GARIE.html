@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title></title>
+		<link rel="shortcut icon"  type="image/png" href="Logo/favicon.png"/>
+		<link rel="stylesheet" type="text/css" href="css/ProjectStory.css">
+		<link rel="stylesheet" type="text/css" href="css/Slideshow.css">
+	</head>
+
+	<body>
+
+		<div class="grid">
+
+			<a href="index.html">
+				<img class="fitcover imglogo a" src="Logo/2K_Logo_2_Grey.jpg" align="top"/>
+			</a>
+
+			<div class="b">
+				<h1 class="center underline"> <strong> G . A . R . I . E </strong> </h1>
+			</div>
+		</div>
+
+		<div class="grid2">
+			<img class="HeadImage fitcover" height=100% max-width="100%" src="Website-Photos/GARIE/Prototype_Parade.jpg"/>
+			<img class="HeadImage fitcover" height=100% max-width="100%" src="Website-Photos/GARIE/FinalDesign_Top.png"/>
+			<img class="HeadImage fitcover" height=100% max-width="100%" src="Website-Photos/GARIE/FinalDesign_ISO.png"/>
+
+		</div>
+
+	<div class="grid3">
+
+		<div id="myBtnContainer">
+	  		<button class="btn active" onclick="filterSelection('all')"> A L L </button>
+	  		<button class="btn" onclick="filterSelection('Design_Brief')"> D E S I G N &nbsp; B R I E F </button>
+	  		<button class="btn" onclick="filterSelection('Research')"> R E S E A R C H </button>
+	  		<button class="btn" onclick="filterSelection('Initial_Designs')"> I N I T I A L &nbsp; D E S I G N S </button>
+	  		<button class="btn" onclick="filterSelection('Drivetrain')"> D R I V E T R A I N </button>
+	  		<button class="btn" onclick="filterSelection('Gum_Removal')"> G U M &nbsp; R E M O V A L </button>
+	  		<button class="btn" onclick="filterSelection('Street_Washing')"> S T R E E T  &nbsp; W A S H I N G </button>
+	  		<button class="btn" onclick="filterSelection('Final_Design')"> F I N A L &nbsp; D E S I G N </button>
+	  		<button class="btn" onclick="filterSelection('Tools_Used')"> T O O L S &nbsp; U S E D </button>
+		</div>
+
+		<div class="b2">
+
+	  		<div class="filterDiv Design_Brief">
+	  			<h2> D E S I G N &nbsp; B R I E F </h2>
+	  			<h3> Gum And Road Ingress Eliminator </h3>
+	  			
+	  			<p> 
+					Maintaining street cleanliness is an ongoing complication for many cities in the UK. With the increases in population, especially in densely populated areas such as London, traditional methods of waste management are slowly becoming obsolete. Automation is one such technology that has bridged the disparity between the growing public demand and supply constraints. Currently, there are no widely availble autonomous public cleaners on the market and none that specifically target pavements. 
+				</p>
+
+				<p>
+					The aim of this project is to design an autonomous vehicle capable of cleaning pavements of litter, gum and harmful particulate matter. The product will be sold to councils as an effective solution to maintaining street cleanliness with minimal additional investment. 
+				</p>
+
+	  		</div>	
+
+	  		<div class="filterDiv Research">
+	  			<h2> R E S E A R C H </h2>
+
+				<h3> Target Waste </h3>
+
+				<p>
+					Common types of litter found on streets were investigated through government research reports. these informed the cleaning processes and initial concepts greatly as different manipulators were required for different types of waste. It was decided that particulate matter and gum were to be targetted due to the adverse effects on health, economy and social aspects.
+				</p>
+
+				<h3> Technology Audit </h3>
+
+				<p>
+					Current Autonomy technology was investigated. From this, a simple local autonomy system was devised, using ultrasonic sensors coupled with infrared temperature sensors to differenciate obstacles. 
+				</p>
+
+				<h3> Stakeholder Analysis </h3>
+
+				<p>
+					An in depth study of stakeholders (council, tax payers and street cleaners) was carried out to discover their needs. In order to create a well accepted public robot, the aesthetic appearance must match tax payer expectations. Thus a product semantics study was conducted with a focus group to establish the desired aesthetics. The bath council spend was expenditure documents were studied to calculate the price of the autonomous cleaner. Street cleaers perfoms many tasks as well as sweep street. Studies have found that in hazardous weather conditions, many cleaners experience occupational injuries due to roadside slips and falls. Hence the autonomous cleaner would alleviate the some street cleaning activities for the staff while reducing dangerous working conditions.
+				</p>
+
+				<h3> Competitor Analysis </h3>
+
+				<p> 
+					There are no current direct competitors and all previously designed cleaners have not succeeded in the market. However, though studying non-autonomous devices, existing effective cleaning techniques were found. The two technologies that inspired the final solution were street washing, capable of removing 60% of harmful particulate matter, and modern portable gum removal solutions. 
+				</p>
+
+				<h3> Solution Inspiration </h3>
+
+				<img src="Website-Photos/GARIE/StreetWashing.jpg" style="width: 50%">
+
+				<p> 
+					Modern <strong> street washing </strong> systems use water sprays ahead of gutter brooms which rotate at above 2500rpm. The combination of water and agitation from the broom sufficiently releaset the matter from the pavement. Street cleaning vehicles then absorb the fluid through a regenerative air system. Pavement cleaning use high pressure water to both wet and agitate the pavement, releasing the matter and directing the resultant fuid to the drains.
+				</p>
+
+				<img src="Website-Photos/GARIE/GumRemoval.png" style="width: 50%">
+
+				<p>
+					Effective portable <strong> gum removal </strong> systems exist and use gum removal solution, containing non-ionic surfactant, heated to 90 degrees. The solution is applied to the gum for a few seconds, softening it and loosening its grip from the pavement. Following this, it is agitated through a tough bristled brush removing it from the pavement. Excess fluid is soaked up through a mob or brushed away.
+				</p>
+
+				<p>
+					It is suggested that the brush maintains its structure as the gum is 'vaporised' by the solution, hence does not remain on the brush. Hands on research must be done to confirm this, but as of now, research into this existing technology remains undone due to time and budgetary constraings.
+				</p>
+
+			</div>
+
+			<div class="filterDiv Initial_Designs">
+			<h2> I N I T I A L &nbsp; D E S I G N S </h2>
+
+					<div class="row">
+
+					  	<div class="column">
+					    	<img src="Website-Photos/GARIE/InitialDesign_1.jpg" style="height: 15vw" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+					  	</div>
+
+					 	<div class="column">
+					    	<img src="Website-Photos/GARIE/InitialDesign_2.jpg" style="height: 15vw" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+					  	</div>
+
+					  	<div class="column">
+					    	<img src="Website-Photos/GARIE/InitialDesign_3.jpg" style="height: 15vw" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+					  	</div>
+
+					</div>
+
+					<div id="myModal" class="modal">
+					  	<span class="close cursor" onclick="closeModal()">&times;</span>
+					  	<div class="modal-content">
+
+					   		<div class="mySlides">
+					      		<div class="numbertext">1 / 3</div>
+					     		<img src="Website-Photos/GARIE/InitialDesign_1.jpg" style="width: 100%">
+					   		</div>
+
+					    	<div class="mySlides">
+					      		<div class="numbertext">2 / 3</div>
+					      		<img src="Website-Photos/GARIE/InitialDesign_2.jpg" style="width: 100%">
+					    	</div>
+					    
+					    	<div class="mySlides">
+					      		<div class="numbertext">3 / 3</div>
+					      		<img src="Website-Photos/GARIE/InitialDesign_3.jpg" style="width: 100%">
+					    	</div>
+						</div>
+					</div>
+					
+				<img class="floatl" width=40% src="Website-Photos/GARIE/InitialDesign_Cross.jpg"/>
+
+				<p class="zero">
+					Multiple concepts were evaluated against a specification and three mechanisms were chosen to be developed. For litter collection, a front roller designed to pick up and compress common types of waste . The waste it then further compacted and fed into an on-board storage for space efficiency.Due to the synergy between street washing and gu removal, a compact mechanism capable of performing both tasks was designed. At the leading edge, a heating gum removal solution will be applied to 'release' the gum from the pavement. An on-board water storage constrantly feeds a rotating rear brush that performs both the street cleaning and gum removal tasks simultaneously.
+				</p>
+
+				<p class="zero">
+					A design to incorporate both mechanisms was developed. The cross section of the developed design can be seen on the left. Due to the scope of the project the litter collection aspect was abandoned. 
+				</p>
+
+				<img class="floatr" width=60% src="Website-Photos/GARIE/InitialDesign_CrossTop.jpg"/>
+
+				<p class="p2">
+					The design of the drivetrain was changed from a simple rear wheel drive with two DC motors. An omdirectional drivetrain allows for more methods of movement. This allows for greater positional accuracy and more predictable movement. Reducing the likelihood of accidental collisions with the general public.
+				</p>
+
+				<img class="floatr zeromargin" width=35% src="Website-Photos/GARIE/Turn_Rear.png"/>
+				<img class="floatr zeromargin" width=35% src="Website-Photos/GARIE/Turn_Omni.png"/>
+				
+	  		</div>
+
+	  		<div class="filterDiv Drivetrain">
+	  			<h2> D R I V E T R A I N </h2>
+
+	  			<img src="Website-Photos/GARIE/CardboardModel_Front.jpg" style="width: 40%">
+	  			<img src="Website-Photos/GARIE/CardboardModel_Rear.jpg" style="width: 40%">
+
+	  			<p>
+	  				A scale cardboard model was produced in order to undertand the geometry of the product, possible structurally weak areas and how the components could be implimented into the design. Using the model for scaling, a accurate CAD model of the proof of principle prototype was produced (below). 
+	  			</p>
+
+				<img src="Website-Photos/GARIE/Prototype_CAD.jpg" style="width: 40%">
+				<img src="Website-Photos/GARIE/Prototype_CADRear.jpg" style="width: 40%">
+
+	  			<h3> Omnidirectional Drivetrain </h3>
+
+	  			<p>
+	  				The drivetrain consisted of 4 omnidirectional wheels separately driven by geared DC motors allowing for a greater number movement methods. 
+	  			</p>
+
+	  			<img class="" width=80% src="Website-Photos/GARIE/Drivetrain.jpg"/>
+
+	  			<p>
+	  				The wheels are directly driven through a coupling and a bespoke shaft. A timing pulley is then attached to the outside of the wheel. This was used to drive the rear brush bar though a timing pulley.
+	  			</p>
+
+	  			<img class="" width=40% src="Website-Photos/GARIE/Drivetrain_Explode.png"/>
+	  			<img class="" width=40% src="Website-Photos/GARIE/Drivetrain_Explode_2.png"/>
+
+	  			<p>
+	  				I machined the bespoke shafts and couplings out of mild steel and 3D printed the timing pulleys. The components were assembled onto a laser cut MDF chassis. 
+	  			</p>
+
+	  			<img class="" width=40% src="Website-Photos/GARIE/Omnidrive.jpg"/>
+	  			<img class="" width=40% src="Website-Photos/GARIE/DrivetrainShaft.jpg"/>
+
+	  			<p>
+	  				The drivetrain is controlled by an Arduino through 4 h-bridges. A voltage regulator reduced the 12V Li Po battery supply to 5V for the h-bridges.
+	  			</p>
+	  			
+	  			<img class="" width=80% src="Website-Photos/GARIE/OmnidriveElectronics2.jpg"/>
+	  			
+	  			<p>
+	  				Control software was written on MATLAB Simulink due to its synergy with hardware. A truthtable was used to translate input signals from a analogue stuck into motor movement. 
+	  			</p>
+
+	  			<img class="" width=70% src="Website-Photos/GARIE/MotorControl.jpg"/>
+
+	  			<p>
+	  				The motors could not drive the vehicle reliably due manufacturing tolerances and faults in the electronics. However, functioned to prove the possibility of greater mobility.
+	  			</p>
+
+	  			<video class="botmargin" width=80% controls name="Drivetrain Test" src="Videos/Drivetrain.mp4">
+	  			</video>
+	  		</div>
+
+	  		<div class="filterDiv Gum_Removal">
+	  		<h2> G U M &nbsp; R E M O V A L </h2>
+
+
+	  			<p>
+	  				The gum removal system consisted of gum detection and spray head placements. The spray head consisted of a motor pump connected to a heating chamber and pressure valve. When he gum removal solution is heated to the required temperature, the motor pump activated and pumps the liquid into the pressure valve which build up pressure. When suffient pressure reached, a consistent volume of liquid is expelled at a predictable speed. Due to time constraints, this aspect of the design was not created hoever was designed.
+	  			</p>
+
+	  			<img class="" width=80% src="Website-Photos/GARIE/GumRemovalSystem.jpg"/>
+
+	  			<img class="floatr marginr" width=24% src="Website-Photos/GARIE/JeVois.jpg"/>
+
+	  			<p> </p>
+	  			<p>
+	  				The machine vision, spray head placement and system autonomy were developed. Machine vision was written on Python OpenCV and implimented through a JeVois camera module. The JeVois was used as it contained its own microporcessor, capable of processing pythong code, allowing for detection and reaction to its environment.
+	  			</p>
+	  			<p> </p>
+
+	  			<img class="" width=20% src="Website-Photos/GARIE/Gum1.jpg"/>
+	  			<img class="" width=20% src="Website-Photos/GARIE/gum2.jpg"/>
+	  			<img class="" width=20% src="Website-Photos/GARIE/gum3.jpg"/>
+	  			<img class="" width=20% src="Website-Photos/GARIE/gum4.jpg"/>
+
+
+	  			<p>
+	  				Machine vision code used edge, brigtness and shape detection to differenciate the gum from its surrounding area. Initial tests with colour detection was attempted however unsuccessful. In future iterations, it would be ideal to also impliment colour detection for verifivation as brightness detection alone has difficulty reliably sensing gum.
+	  			</p>
+
+	  			<img class="" width=80% src="Website-Photos/GARIE/CircleDetection.jpg"/>
+
+	  			<p>
+	  				The camera applies an edge detection followed by a threshold filter to determine the bright areas of the picure. Within this image, verticies are placed. The number of joined vertices dictate the shape (i.e. 3 = triangle). With a specificed number of verticies, unwanted shapes can be filtered out until a shape resembling a circular gum stain is detected. The coordinated of the detected pieces of gum are then serially sent the the arduino.
+	  			</p>
+
+	  			<img class="" width=80% src="Website-Photos/GARIE/GumDetection.jpg"/>
+
+	  			<p>
+	  				A rear brush, with height controlled by two servos connected a CAM, provides agitation, following the gum removal solution application, removing the gum from the pavement.
+	  			</p>
+
+				<img class="" width=40% src="Website-Photos/GARIE/CAM_Down.png"/>
+				<img class="" width=40% src="Website-Photos/GARIE/CAM_Up.png"/>	  
+
+				<p>
+	  				The rear brush is linked to the drivetrain through a step-up pulley system, so as the robot moves forward, the brush rotates at a higher velocity, lowered and agitates the pavement.
+	  			</p>
+
+	  			<img class="" width=80% src="Website-Photos/GARIE/RearBrushBar_Pulley.png"/>			
+
+	  			<p>
+	  				Gantry control code was made through use of a state machine. Depending on the coordinated recieved, the values would be translated into rotation required by the stepper to align the spray head with the dried gum.
+	  			</p>
+
+	  			<img class="" width=80% src="Website-Photos/GARIE/ManualGantryControl.jpg"/>
+
+	  			<p>
+	  				Manual coordinate entry was intially done to test the system and the design was improved. Serial communication was then established between the JeVois and arduino controlling the stepper motor. The data was processed through a truth table.
+	  			</p>
+
+	  			<img class="" width=80% src="Website-Photos/GARIE/SerialDataCom.jpg"/>
+
+	  			<p>
+	  				The output of the data conversion code was input into the state machine of the gantry control code. This created a fully autonomous detection and movement system.
+	  			</p>
+
+	  			<img class="" width=80% src="Website-Photos/GARIE/GumAutoCode.jpg"/>
+
+				<p>
+	  				The drivetrain was also incorporated into the autonomy. The system successfully functioned autonomously in a straight line.
+	  			</p>
+
+	  			<video class="botmargin" width=80% controls name="Autonomy in Controlled Environment" src="Videos/ControlledTest.mp4">
+	  			</video>
+
+	  			<p>
+	  				The system was then tested outside in an uncroncrolled environment. It had difficulty extinguishing between bright spots in the pacement and gum. Many faults were found and improved upon in the final design.
+	  			</p>
+
+	  			<video class="botmargin" width=80% controls name="Autonomy in Situ" src="Videos/Parade.mp4">
+	  			</video>
+
+
+	  		</div>
+
+	  		<div class="filterDiv Street_Washing">
+	  			<h2> S T R E E T &nbsp; W A S H I N G </h2>
+
+	  			<img class="floatr marginr" width=30% src="Website-Photos/GARIE/StreetWashing_Design.jpg"/>
+
+	  			<p>
+	  				The street washing mechanism consists of the rear brush bar and a water tank. The water tanks feeds the rear brush consistently thorugh a CAM connected to a servo. This allows for a constantly wat rear brush providing effective street washing and thus efficient particulate matter removal.
+	  			</p>
+
+	  			<p>
+	  				Due to time contraints, this aspect of the design was not fully realised. However, the dimensions and capacity of the water tanks was developed to ensure the needs of the design specification were fulfilled.
+	  			</p>
+
+	  		</div>
+
+	  		<div class="filterDiv Final_Design">
+	  			<h2> F I N A L &nbsp; D E S I G N </h2>
+
+				<p>
+	  				The final design improved upon the faults seen in the prototype. The main faults of concern were the effect of an uncontrolled environment and time delays seen in the system due to the microprocessor clock speed.
+	  			</p>
+
+	  			<img class="" width=80% src="Website-Photos/GARIE/FinalDesign_ISO2.PNG"/>
+
+	  			<p>
+	  				The final design consisted of three modules each controlled by a separate microprocessor, eliminating time delays. The machine vision was housed within a casing to create a controlled environment for gum detection, increasing detection reliability.
+	  			</p>
+
+	  			<img class="floatr marginr" width=80% src="Website-Photos/GARIE/FinalDesign_CrossBrush.PNG"/>
+	  			<img class="floatr marginr" width=80% src="Website-Photos/GARIE/FinalDesign_CrossDrive.PNG"/>
+	  			<img class="floatr marginr" width=80% src="Website-Photos/GARIE/FinalDesign_CrossSpray.PNG"/>
+
+	  			<p>
+	  				Amongst a host of other design changed, I am confident the final design, is manufactured to a hight quality, can reliably clean the streets of particulate matter and gum stains. However a system of charging docks, by converting smart bins into the robot hubs for example, must be created to support the system. The hubs must also offer refilling of gum removal solution and water in the water tank as well as testing the system for faults and communicating errors to mission control. These are all part of required future work.
+	  			</p>
+	  		
+	  		</div>
+
+	  		<div class="filterDiv Tools_Used">
+	  			<h2> T O O L S &nbsp; U S E D </h2>
+	  			<img class="icon" width=40% src="Website-Photos/Python_Logo.png"/>
+	  			<img class="icon" width=40% src="Website-Photos/Inventor_Logo.png"/>
+	  			<img class="icon" width=40% src="Website-Photos/MatLab_Logo.png"/>
+	  			<img class="icon" width=40% src="Website-Photos/Ultimaker_Logo.jpg"/>
+	  			<img class="icon" width=40% src="Website-Photos/tools.png"/>
+	  			<img class="icon" width=40% src="Website-Photos/Concepts_Logo.jpg"/>
+	  			<img class="icon" width=40% src="Website-Photos/Arduino_Logo.png"/>
+	  			<img class="icon" width=40% src="Website-Photos/GARIE/JeVois.jpg"/>
+
+	  		</div>
+
+		</div>
+
+	<div>
+
+	
+
+
+	<!-- Search box script -->
+	<script>
+	filterSelection("all")
+	function filterSelection(c) {
+	  var x, i;
+	  x = document.getElementsByClassName("filterDiv");
+	  if (c == "all") c = "";
+	  for (i = 0; i < x.length; i++) {
+	    w3RemoveClass(x[i], "show");
+	    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+	  }
+	}
+
+	function w3AddClass(element, name) {
+	  var i, arr1, arr2;
+	  arr1 = element.className.split(" ");
+	  arr2 = name.split(" ");
+	  for (i = 0; i < arr2.length; i++) {
+	    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+	  }
+	}
+
+	function w3RemoveClass(element, name) {
+	  var i, arr1, arr2;
+	  arr1 = element.className.split(" ");
+	  arr2 = name.split(" ");
+	  for (i = 0; i < arr2.length; i++) {
+	    while (arr1.indexOf(arr2[i]) > -1) {
+	      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+	    }
+	  }
+	  element.className = arr1.join(" ");
+	}
+
+	// Add active class to the current button (highlight it)
+	var btnContainer = document.getElementById("myBtnContainer");
+	var btns = btnContainer.getElementsByClassName("btn");
+	for (var i = 0; i < btns.length; i++) {
+	  btns[i].addEventListener("click", function(){
+	    var current = document.getElementsByClassName("active");
+	    current[0].className = current[0].className.replace(" active", "");
+	    this.className += " active";
+	  });
+	}
+	</script>
+
+	<!-- Image enlarge script -->
+	<script>
+	function openModal() {
+	  document.getElementById('myModal').style.display = "block";
+	}
+
+	function closeModal() {
+	  document.getElementById('myModal').style.display = "none";
+	}
+
+	var slideIndex = 1;
+	showSlides(slideIndex);
+
+	function plusSlides(n) {
+	  showSlides(slideIndex += n);
+	}
+
+	function currentSlide(n) {
+	  showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("demo");
+	  var captionText = document.getElementById("caption");
+	  if (n > slides.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+	      slides[i].style.display = "none";
+	  }
+	  for (i = 0; i < dots.length; i++) {
+	      dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";
+	  dots[slideIndex-1].className += " active";
+	  captionText.innerHTML = dots[slideIndex-1].alt;
+	}
+	</script>
+
+	</body>
+</html>
