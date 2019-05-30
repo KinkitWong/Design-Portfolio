@@ -170,7 +170,7 @@
 	  			<h2> D R I V E T R A I N </h2>
 
 	  			<img src="Website-Photos/GARIE/CardboardModel_Front.jpg" style="width: 40%">
-	  			<img src="Website-Photos/GARIE/CardboardModel_Rear.jpg" style="width: 40%">
+	  			<img src="Website-Photos/GARIE/CardBoardModel_Rear.jpg" style="width: 40%">
 
 	  			<p>
 	  				A scale cardboard model was produced in order to undertand the geometry of the product, possible structurally weak areas and how the components could be implimented into the design. Using the model for scaling, a accurate CAD model of the proof of principle prototype was produced (below). 
@@ -211,7 +211,7 @@
 	  				Control software was written on MATLAB Simulink due to its synergy with hardware. A truthtable was used to translate input signals from a analogue stuck into motor movement. 
 	  			</p>
 
-	  			<img class="" width=70% src="Website-Photos/GARIE/MotorControl.jpg"/>
+	  			<img class="" width=70% src="Website-Photos/GARIE/MotorControl.JPG"/>
 
 	  			<p>
 	  				The motors could not drive the vehicle reliably due manufacturing tolerances and faults in the electronics. However, functioned to prove the possibility of greater mobility.
@@ -224,12 +224,11 @@
 	  		<div class="filterDiv Gum_Removal">
 	  		<h2> G U M &nbsp; R E M O V A L </h2>
 
-
 	  			<p>
 	  				The gum removal system consisted of gum detection and spray head placements. The spray head consisted of a motor pump connected to a heating chamber and pressure valve. When he gum removal solution is heated to the required temperature, the motor pump activated and pumps the liquid into the pressure valve which build up pressure. When suffient pressure reached, a consistent volume of liquid is expelled at a predictable speed. Due to time constraints, this aspect of the design was not created hoever was designed.
 	  			</p>
 
-	  			<img class="" width=80% src="Website-Photos/GARIE/GumRemovalSystem.jpg"/>
+	  			<img class="" width=80% src="Website-Photos/GARIE/GumRemovalSystem.JPG"/>
 
 	  			<img class="floatr marginr" width=24% src="Website-Photos/GARIE/JeVois.jpg"/>
 
@@ -249,13 +248,13 @@
 	  				Machine vision code used edge, brigtness and shape detection to differenciate the gum from its surrounding area. Initial tests with colour detection was attempted however unsuccessful. In future iterations, it would be ideal to also impliment colour detection for verifivation as brightness detection alone has difficulty reliably sensing gum.
 	  			</p>
 
-	  			<img class="" width=80% src="Website-Photos/GARIE/CircleDetection.jpg"/>
+	  			<img class="" width=80% src="Website-Photos/GARIE/CircleDetection.JPG"/>
 
 	  			<p>
 	  				The camera applies an edge detection followed by a threshold filter to determine the bright areas of the picure. Within this image, verticies are placed. The number of joined vertices dictate the shape (i.e. 3 = triangle). With a specificed number of verticies, unwanted shapes can be filtered out until a shape resembling a circular gum stain is detected. The coordinated of the detected pieces of gum are then serially sent the the arduino.
 	  			</p>
 
-	  			<img class="" width=80% src="Website-Photos/GARIE/GumDetection.jpg"/>
+	  			<img class="" width=80% src="Website-Photos/GARIE/GumDetection.JPG"/>
 
 	  			<p>
 	  				A rear brush, with height controlled by two servos connected a CAM, provides agitation, following the gum removal solution application, removing the gum from the pavement.
@@ -274,19 +273,19 @@
 	  				Gantry control code was made through use of a state machine. Depending on the coordinated recieved, the values would be translated into rotation required by the stepper to align the spray head with the dried gum.
 	  			</p>
 
-	  			<img class="" width=80% src="Website-Photos/GARIE/ManualGantryControl.jpg"/>
+	  			<img class="" width=80% src="Website-Photos/GARIE/ManualGantryControl.JPG"/>
 
 	  			<p>
 	  				Manual coordinate entry was intially done to test the system and the design was improved. Serial communication was then established between the JeVois and arduino controlling the stepper motor. The data was processed through a truth table.
 	  			</p>
 
-	  			<img class="" width=80% src="Website-Photos/GARIE/SerialDataCom.jpg"/>
+	  			<img class="" width=80% src="Website-Photos/GARIE/SerialDataCom.JPG"/>
 
 	  			<p>
 	  				The output of the data conversion code was input into the state machine of the gantry control code. This created a fully autonomous detection and movement system.
 	  			</p>
 
-	  			<img class="" width=80% src="Website-Photos/GARIE/GumAutoCode.jpg"/>
+	  			<img class="" width=80% src="Website-Photos/GARIE/GumAutoCode.JPG"/>
 
 				<p>
 	  				The drivetrain was also incorporated into the autonomy. The system successfully functioned autonomously in a straight line.
@@ -327,15 +326,15 @@
 	  				The final design improved upon the faults seen in the prototype. The main faults of concern were the effect of an uncontrolled environment and time delays seen in the system due to the microprocessor clock speed.
 	  			</p>
 
-	  			<img class="" width=80% src="Website-Photos/GARIE/FinalDesign_ISO2.PNG"/>
+	  			<img class="" width=80% src="Website-Photos/GARIE/FinalDesign_ISO2.png"/>
 
 	  			<p>
 	  				The final design consisted of three modules each controlled by a separate microprocessor, eliminating time delays. The machine vision was housed within a casing to create a controlled environment for gum detection, increasing detection reliability.
 	  			</p>
 
-	  			<img class="floatr marginr" width=80% src="Website-Photos/GARIE/FinalDesign_CrossBrush.PNG"/>
-	  			<img class="floatr marginr" width=80% src="Website-Photos/GARIE/FinalDesign_CrossDrive.PNG"/>
-	  			<img class="floatr marginr" width=80% src="Website-Photos/GARIE/FinalDesign_CrossSpray.PNG"/>
+	  			<img class="floatr marginr" width=80% src="Website-Photos/GARIE/FinalDesign_CrossBrush.png"/>
+	  			<img class="floatr marginr" width=80% src="Website-Photos/GARIE/FinalDesign_CrossDrive.png"/>
+	  			<img class="floatr marginr" width=80% src="Website-Photos/GARIE/FinalDesign_CrossSpray.png"/>
 
 	  			<p>
 	  				Amongst a host of other design changed, I am confident the final design, is manufactured to a hight quality, can reliably clean the streets of particulate matter and gum stains. However a system of charging docks, by converting smart bins into the robot hubs for example, must be created to support the system. The hubs must also offer refilling of gum removal solution and water in the water tank as well as testing the system for faults and communicating errors to mission control. These are all part of required future work.
